@@ -17,10 +17,6 @@ dataset.head()
 
 print("Cancer Data Dimensions : {}".format(dataset.shape))
 
-file = open('H:\Medium\Machine Learning Model For Breast Cancer Prediction\data.csv','rt')
-text = file.read()
-file.close()
-
 #print(dataset.groupby('diagnosis').size())
 from sklearn.preprocessing import LabelEncoder
 labelencoder_Y = LabelEncoder()
